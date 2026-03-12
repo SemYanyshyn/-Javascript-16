@@ -40,3 +40,7 @@ const admin3 = new Admin("Andriy", "andriy_tat@gmail.com");
 admin1.printInfo();
 admin2.printInfo();
 admin3.printInfo();
+
+const users = [user1, user2, user3];
+
+users.forEach((user) => user.printInfo());
